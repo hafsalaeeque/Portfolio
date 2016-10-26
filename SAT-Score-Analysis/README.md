@@ -1,5 +1,5 @@
 # SAT Score Exploratory Analysis
-
+___
 In my first weeks study data science I did some exploratory analysis of SAT Scores across the United States.
 
 Some of the descriptive analysis was done using python and a little bit of visual analysis was conducted using Tableau.
