@@ -12,3 +12,9 @@ The 'TL;DR' of my research show that Dickinson would be the best county for furt
 I did some of the visual analysis using Tableau.  The link to that viz is below.
 
 https://public.tableau.com/profile/sam1371#!/vizhome/Project2Iowa/Sheet1
+
+
+
+
+
+In the near future I plan on coming back to this data with additional information about political offiliations within Iowa and trying to see if there are any relations between Politics and Drinking Habbits.  It should be fun!
