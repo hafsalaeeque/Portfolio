@@ -1,4 +1,4 @@
-# Iowa Liquor Store Research.
+# Iowa Liquor Store Research. (Has Viz)
 Geographic research assesment using liquor store sales data from Iowa to predict ideal locations for new stores.
 
 # Predicting Credit Card Defaults.
@@ -7,14 +7,14 @@ Modelling to predict whether an individual will default or not on their credit. 
 # Michelin Star Predictions
 Data Science approach to predicting the Michelin Star restaurants in Washington DC.
 
-# DC Moving Violations and Crash Causality Analysis
+# DC Moving Violations and Crash Causality Analysis (Has Viz)
 Testing the relationship between Car Crashes and Speed Traps in DC.  Information provided by Open Data DC.
 
-# Presidential Twitter Word Clouds
+# Presidential Twitter Word Clouds. (Has Viz)
 Guide to scraping Twitter accounts and creating word density clouds using Tableau.
 
 # Indeed Salary Predictions.
 Modelling to predict the pay grade classification of a position posted on Indeed.  Location, Position Title, Company and Description were all manually scraped from Indeed.com. 
 
-# SAT Score Analysis.
+# SAT Score Analysis. (Has Viz)
 Descriptive and Visual analysis of SAT Score averages for the 50 United States and Washington DC.
