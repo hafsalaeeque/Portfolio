@@ -11,6 +11,7 @@ many persons started putting together their list of restaurants they believed wo
 I participated in the General Assembly Data Science Competition for predicting the Michelin Guide.  My process and Finings are in the 
 iPython Notebook.
 
+---
 #### Gather
 To start this prediction process out I would need two things.  Data by which I could fit my model (restaurants that had been michelin reviewed) and data I could predict with (restaurants in DC).  I started by scraping the [Michelin website](https://www.viamichelin.com) for their information and reviews for all of the restaurants they had given stars or honorable mention in the United Sates.  
 - I choice to do only restaurants the US to prevent the influence of culture gaps or continental grading criteria.  There is the equivalent of a food truck in Asia with a Michelin star.
@@ -20,7 +21,7 @@ Using the Michelin website I could get information or restaurants like their rat
 
 To get data to predict on I could have used Yelp or Google Reviews, but for times sake I found a list put out by the Washintonian of their [100 Best restaurants in DC for 2016](https://www.washingtonian.com/2016/02/08/100-very-best-restaurants/2016/) and scraped that.  What was nice about this was their information format was similar to that of Michelin's in that the had price ranges and a brief _professional_ review as well.
 
-
+---
 #### Data Prep
 A little data massaging was needed to convert categorical features into values processable by a model.
 - Text Vectorization of reviews (TFIDF)
@@ -28,6 +29,7 @@ A little data massaging was needed to convert categorical features into values p
 - Price converting to a simpler scale, 1-5, instead of USD ranges.
 As I collected the data I could easily clean and format it by my means when I gathered it.
 
+---
 #### Model
 I experimented with a could classification models..
 - Random Forest, this was not used as a predictor but as a means of feature selection using the extra trees feature importance.  I got the 250 most important features, which now that I look back on it, TFIDF would create features that are really important for a single observation.  Not the smartest move.  Anyways, these 250 most important features were used for the rest of the models.
@@ -39,17 +41,18 @@ The competition had a unique criteria for scoring that caused me to assess model
 
 At this point I selected the KNN model with 7 neighbors as the model that I wanted to try to optimize.  Spun up a AWS compute instance and used it to run a GridSearch CV.
 
+---
 #### Conclusion
 My final Predictions were Fiola Mare, Masseria, Fiola, Preserve, Obelisk, Del Campo, Woodberry Kitchen and Centrolina.  All of which would be awarded one star.  
 
 Out of the 12 Restaurants that recieve Michelin Stars, only 8 were actually in my modelling data.  
 _(Minibar, Blue Duck Tavern, The Dabney, Fiola, Masseria, Plume, The Inn at Little Washington, Rose's Luxury)_
 
-With my final model I predicted 2 of the possible 8 I could have gotten.
+With my final model I predicted 2 of the possible 8 I could have gotten.  
 _(Fiola, Masseria)_
 
-If i went with my original Logistic Regression I would have got 4 of 12 right.
-_(Plume, The Inn at Little Washington, Blue Duck Tavern, Minibar)
+If i went with my original Logistic Regression I would have got 4 of 12 right.   
+_(Plume, The Inn at Little Washington, Blue Duck Tavern, Minibar)_
 
 Different models came to different conclussions of correct information.  In the future when faced with a similar project I am definitely going to incorporate an element of multiple model aggregation, such as a voting classifier.
 
