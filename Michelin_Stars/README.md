@@ -57,3 +57,11 @@ _(Plume, The Inn at Little Washington, Blue Duck Tavern, Minibar)_
 Different models came to different conclussions of correct information.  In the future when faced with a similar project I am definitely going to incorporate an element of multiple model aggregation, such as a voting classifier.
 
 In the end my models always did one thing correct and that was never predicting any restaurant in DC would get 3 stars.
+
+---
+
+#### Technologies Used
+Language(s): Python
+Libraries: Requests, BeautifulSoup, UrlLib, Pandas, Numpy, SKLearn, Matplotlib
+IDE: Jupyter Notebook
+BI/Other Tools: Amazon Web Services, Regex
