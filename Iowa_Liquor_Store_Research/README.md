@@ -20,13 +20,15 @@ It is important to mention these sales records are Distributor to Store and reco
 Using the engineer features 'Per Capita Sales (USD)' and 'AVG Store Sales per County' I created a simple [scatter plot with Tableau](https://public.tableau.com/profile/samuel.stack#!/vizhome/Project2Iowa/Sheet1) to compare the two features.  Ideally there would be a trending relation between the two and outlying points would warrent a further investigation.  According to the visualization there was one county that stuck out from the rest, Dickinson.  Dickinson had over twice the average per capita sales and clocked in as sixth in store sales.  1 through 5 were all cities with large population centers.
 This combination led me to nominate Dickinsom county for further investigation into opening up a new liquor retailer.  
 
-
-
-
 The **TL;DR** of my research show that Dickinson would be the best county for further investigations as far as opening up a new Liquor Score.
 
 I did some of the visual analysis using Tableau.  The link to that viz is below.
 
+### Technologies Used
+- Language(s): Python
+- Libraries: Pandas, Seaborn, Matplotlib
+- IDE: Jupyter Notebook
+- BI/Other Tools: Tableau
 
 
 
